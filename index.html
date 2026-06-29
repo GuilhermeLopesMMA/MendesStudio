@@ -1,319 +1,524 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mara Vinhas — Fotografia em filme</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diogo Mendes — Fotografia de desporto</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;700;800;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="masthead" id="masthead">
-    <a href="#top" class="mark">Mara Vinhas <sup>est. 2014</sup></a>
-    <nav class="nav" aria-label="Secções">
-        <a href="#obras"><span class="idx">01 ·</span>Obras</a>
-        <a href="#sobre"><span class="idx">02 ·</span>Sobre</a>
-        <a href="#contacto"><span class="idx">03 ·</span>Contacto</a>
-    </nav>
+      <div class="inner">
+        <a href="#top" class="mark">
+          <span class="dm">DM.</span>
+          <span class="handle">@mende_sstudio</span>
+        </a>
+        <nav class="nav" aria-label="Secções">
+          <a href="#obras"><span class="idx">01</span>Obras</a>
+          <a href="#equipamento"><span class="idx">02</span>Equipamento</a>
+          <a href="#sobre"><span class="idx">03</span>Sobre</a>
+          <a href="#contacto"><span class="idx">04</span>Contacto</a>
+        </nav>
+      </div>
     </header>
 
     <main id="top">
+      <section class="hero container">
+        <span class="eyebrow"
+          ><strong>Portefólio</strong>&nbsp;·&nbsp;2024 — 2026</span
+        >
+        <h1 class="hero-name">
+          <span class="first">Diogo</span>
+          <span class="last">Mendes</span>
+        </h1>
+        <div class="hero-rule"></div>
 
-    <section class="hero">
-    <div class="hero-text">
-        <span class="eyebrow">Arquivo · 2018 — 2026</span>
-        <h1>Mara<em>Vinhas</em></h1>
-        <p class="ethos">Sobre a paciência da luz, e o que ela escolhe iluminar.</p>
-        <p class="ethos-meta">
-        <span>Fotografia em filme · 35mm + 6×7</span>
-        <span>Lisboa, Portugal</span>
+        <div class="hero-grid">
+          <div class="hero-statement">
+            <p class="lede">
+              Fotógrafo de <em>desporto</em> &mdash; futebol, atletismo e
+              modalidades indoor.
+            </p>
+            <dl class="hero-stats">
+              <div>
+                <dt>Base</dt>
+                <dd>Setúbal, PT</dd>
+              </div>
+              <div>
+                <dt>Foco</dt>
+                <dd>Formação</dd>
+              </div>
+              <div>
+                <dt>Disponível</dt>
+                <dd>2026</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero-photo">
+            <img
+              src="https://picsum.photos/seed/dm-hero/1100/1380"
+              alt="Fotografia de destaque"
+            />
+            <div class="tag">
+              <span>● ENSAIO</span>
+              <span>Bonfim · 04.2024</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-label">Coberturas</div>
+        <div class="ticker-track">
+          <span class="ticker-item">Vitória FC</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">AF Setúbal</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">CD Pinhalnovense</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">Os Belenenses</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">Atlético CP</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">FC Barreirense</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">GD Fabril</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">CD Trafaria</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">AD Sanjoanense</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">Sporting CP B</span
+          ><span class="ticker-dot">●</span>
+          <!-- duplicate for seamless loop -->
+          <span class="ticker-item">Vitória FC</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">AF Setúbal</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">CD Pinhalnovense</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">Os Belenenses</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">Atlético CP</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">FC Barreirense</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">GD Fabril</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">CD Trafaria</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">AD Sanjoanense</span
+          ><span class="ticker-dot">●</span>
+          <span class="ticker-item">Sporting CP B</span
+          ><span class="ticker-dot">●</span>
+        </div>
+      </div>
+
+      <header class="section-head container" id="obras">
+        <h2><span class="num">01.</span>Obras <em>Seleccionadas</em></h2>
+        <p class="desc">
+          Seis frames da época 2024. Acção, retrato e celebração.
         </p>
-    </div>
+      </header>
 
-    <div class="contact-sheet" aria-hidden="true">
-        <div class="cs-grid">
-        <div class="cs-cell"           data-fr="01"><img src="https://picsum.photos/seed/mv-cs01/300/200?grayscale" alt=""></div>
-        <div class="cs-cell x"         data-fr="02"></div>
-        <div class="cs-cell selected"  data-fr="03"><img src="https://picsum.photos/seed/mv-cs03/300/200?grayscale" alt=""></div>
-        <div class="cs-cell"           data-fr="04"><img src="https://picsum.photos/seed/mv-cs04/300/200?grayscale" alt=""></div>
-        <div class="cs-cell"           data-fr="05"><img src="https://picsum.photos/seed/mv-cs05/300/200?grayscale" alt=""></div>
-
-        <div class="cs-cell x"         data-fr="06"></div>
-        <div class="cs-cell selected"  data-fr="07"><img src="https://picsum.photos/seed/mv-cs07/300/200?grayscale" alt=""></div>
-        <div class="cs-cell"           data-fr="08"><img src="https://picsum.photos/seed/mv-cs08/300/200?grayscale" alt=""></div>
-        <div class="cs-cell"           data-fr="09"><img src="https://picsum.photos/seed/mv-cs09/300/200?grayscale" alt=""></div>
-        <div class="cs-cell selected"  data-fr="10"><img src="https://picsum.photos/seed/mv-cs10/300/200?grayscale" alt=""></div>
-
-        <div class="cs-cell"           data-fr="11"><img src="https://picsum.photos/seed/mv-cs11/300/200?grayscale" alt=""></div>
-        <div class="cs-cell selected"  data-fr="12"><img src="https://picsum.photos/seed/mv-cs12/300/200?grayscale" alt=""></div>
-        <div class="cs-cell x"         data-fr="13"></div>
-        <div class="cs-cell selected"  data-fr="14"><img src="https://picsum.photos/seed/mv-cs14/300/200?grayscale" alt=""></div>
-        <div class="cs-cell"           data-fr="15"><img src="https://picsum.photos/seed/mv-cs15/300/200?grayscale" alt=""></div>
-        </div>
-    </div>
-    </section>
-
-    <header class="section-head" id="obras">
-    <h2><span class="num">01</span>Selecção, <em>2021 — 2024</em></h2>
-    <p class="desc">Seis frames escolhidos de catorze rolos. Imagens prensadas em papel baritado.</p>
-    </header>
-
-    <div class="works">
-
-    <article class="frame">
-        <figure>
-        <div class="photo" data-lb-src="https://picsum.photos/seed/mv01/1800/1200?grayscale" data-lb-meta="F.01 · TRAVESSA DO OUTEIRO · LISBOA · 2024">
-            <img src="https://picsum.photos/seed/mv01/1400/930?grayscale" alt="Fotografia de rua, Travessa do Outeiro, Lisboa">
-            <span class="corner tl">F.01</span>
-            <span class="corner br">35mm · 1/250</span>
-        </div>
-        <figcaption>
-            <div class="caption-body">
-            <div class="frame-id">F.01 / 06<span class="year">2024</span></div>
-            <h3>Travessa do <em>Outeiro</em></h3>
-            <dl class="meta-list">
-                <dt>Local</dt>      <dd>Lisboa, PT</dd>
-                <dt>Câmara</dt>     <dd>Leica M6</dd>
-                <dt>Lente</dt>      <dd>Summicron 35mm f/2</dd>
-                <dt>Película</dt>   <dd>Kodak Tri-X 400</dd>
-                <dt>Exposição</dt>  <dd>1/250 · f/5.6</dd>
-            </dl>
+      <div class="works container">
+        <!-- 01 -->
+        <article class="work">
+          <div class="work-meta">
+            <div class="work-num">01<sup>/06</sup></div>
+            <div class="work-fixture">
+              <div class="title">Final Sub-19</div>
+              <div class="where">Estádio do Bonfim · Setúbal</div>
+              <div class="when">23 · MAI · 2024</div>
             </div>
-            <svg class="stamp-mark" viewBox="0 0 100 100" aria-hidden="true">
-            <defs><path id="cs1" d="M 50 50 m -34 0 a 34 34 0 1 1 68 0 a 34 34 0 1 1 -68 0"/></defs>
-            <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="1"/>
-            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="0.5"/>
-            <text font-family="JetBrains Mono, monospace" font-size="6" letter-spacing="2.2" fill="currentColor"><textPath href="#cs1">· ARQUIVO · M.VINHAS · LISBOA · </textPath></text>
-            <text x="50" y="49" text-anchor="middle" font-family="Fraunces, serif" font-size="13" font-style="italic" fill="currentColor">F.01</text>
-            <text x="50" y="61" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1.4" fill="currentColor">2024</text>
-            </svg>
-        </figcaption>
-        </figure>
-    </article>
-
-    <article class="frame">
-        <figure>
-        <div class="photo" data-lb-src="https://picsum.photos/seed/mv02/1200/1600?grayscale" data-lb-meta="F.02 · RETRATO, MADRAGOA · LISBOA · 2023">
-            <img src="https://picsum.photos/seed/mv02/1100/1450?grayscale" alt="Retrato em Madragoa">
-            <span class="corner tl">F.02</span>
-            <span class="corner br">6×7 · 1/60</span>
-        </div>
-        <figcaption>
-            <div class="caption-body">
-            <div class="frame-id">F.02 / 06<span class="year">2023</span></div>
-            <h3>Retrato, <em>Madragoa</em></h3>
-            <dl class="meta-list">
-                <dt>Local</dt>      <dd>Lisboa, PT</dd>
-                <dt>Câmara</dt>     <dd>Mamiya 7 II</dd>
-                <dt>Lente</dt>      <dd>N 80mm f/4</dd>
-                <dt>Película</dt>   <dd>Ilford HP5 Plus</dd>
-                <dt>Exposição</dt>  <dd>1/60 · f/4</dd>
+            <dl class="work-tech">
+              <dt>Câmara</dt>
+              <dd>Sony α7 IV</dd>
+              <dt>Lente</dt>
+              <dd>FE 70-200mm f/2.8</dd>
+              <dt>Iso</dt>
+              <dd>800</dd>
+              <dt>Exp.</dt>
+              <dd>1/2000 · f/2.8</dd>
             </dl>
-            </div>
-            <svg class="stamp-mark" viewBox="0 0 100 100" aria-hidden="true">
-            <defs><path id="cs2" d="M 50 50 m -34 0 a 34 34 0 1 1 68 0 a 34 34 0 1 1 -68 0"/></defs>
-            <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="1"/>
-            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="0.5"/>
-            <text font-family="JetBrains Mono, monospace" font-size="6" letter-spacing="2.2" fill="currentColor"><textPath href="#cs2">· ARQUIVO · M.VINHAS · LISBOA · </textPath></text>
-            <text x="50" y="49" text-anchor="middle" font-family="Fraunces, serif" font-size="13" font-style="italic" fill="currentColor">F.02</text>
-            <text x="50" y="61" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1.4" fill="currentColor">2023</text>
-            </svg>
-        </figcaption>
-        </figure>
-    </article>
+          </div>
+          <div
+            class="work-photo"
+            data-lb-src="https://picsum.photos/seed/dm01/1800/1200"
+            data-lb-meta="01 · FINAL SUB-19 · ESTÁDIO DO BONFIM · 23.MAI.24"
+          >
+            <img
+              src="https://picsum.photos/seed/dm01/1600/1100"
+              alt="Final Sub-19, Estádio do Bonfim"
+            />
+            <div class="stamp"><span class="dot"></span>FRAME 4173 / SD‑A</div>
+            <div class="corner">200mm · 1/2000s</div>
+          </div>
+          <div class="work-note">
+            Saídos do banco logo após o apito final — primeira corrida foi para
+            o canto, onde estavam os adeptos.
+          </div>
+        </article>
 
-    <article class="frame">
-        <figure>
-        <div class="photo" data-lb-src="https://picsum.photos/seed/mv03/1800/1200?grayscale" data-lb-meta="F.03 · MERCADO, MANHÃ · SETÚBAL · 2022">
-            <img src="https://picsum.photos/seed/mv03/1400/930?grayscale" alt="Mercado, manhã, Setúbal">
-            <span class="corner tl">F.03</span>
-            <span class="corner br">35mm · 1/125</span>
-        </div>
-        <figcaption>
-            <div class="caption-body">
-            <div class="frame-id">F.03 / 06<span class="year">2022</span></div>
-            <h3>Mercado, <em>manhã</em></h3>
-            <dl class="meta-list">
-                <dt>Local</dt>      <dd>Setúbal, PT</dd>
-                <dt>Câmara</dt>     <dd>Nikon FM2</dd>
-                <dt>Lente</dt>      <dd>Nikkor 50mm f/1.4</dd>
-                <dt>Película</dt>   <dd>Kodak T-Max 400</dd>
-                <dt>Exposição</dt>  <dd>1/125 · f/8</dd>
+        <!-- 02 -->
+        <article class="work">
+          <div class="work-meta">
+            <div class="work-num">02<sup>/06</sup></div>
+            <div class="work-fixture">
+              <div class="title">Retrato — Capitão</div>
+              <div class="where">Complexo Desportivo · Setúbal</div>
+              <div class="when">10 · MAR · 2024</div>
+            </div>
+            <dl class="work-tech">
+              <dt>Câmara</dt>
+              <dd>Sony α7 IV</dd>
+              <dt>Lente</dt>
+              <dd>FE 85mm f/1.4 GM</dd>
+              <dt>Iso</dt>
+              <dd>200</dd>
+              <dt>Exp.</dt>
+              <dd>1/250 · f/2</dd>
             </dl>
-            </div>
-            <svg class="stamp-mark" viewBox="0 0 100 100" aria-hidden="true">
-            <defs><path id="cs3" d="M 50 50 m -34 0 a 34 34 0 1 1 68 0 a 34 34 0 1 1 -68 0"/></defs>
-            <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="1"/>
-            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="0.5"/>
-            <text font-family="JetBrains Mono, monospace" font-size="6" letter-spacing="2.2" fill="currentColor"><textPath href="#cs3">· ARQUIVO · M.VINHAS · LISBOA · </textPath></text>
-            <text x="50" y="49" text-anchor="middle" font-family="Fraunces, serif" font-size="13" font-style="italic" fill="currentColor">F.03</text>
-            <text x="50" y="61" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1.4" fill="currentColor">2022</text>
-            </svg>
-        </figcaption>
-        </figure>
-    </article>
+          </div>
+          <div
+            class="work-photo"
+            data-lb-src="https://picsum.photos/seed/dm02/1300/1700"
+            data-lb-meta="02 · RETRATO — CAPITÃO · COMPLEXO DESPORTIVO · 10.MAR.24"
+          >
+            <img
+              src="https://picsum.photos/seed/dm02/1200/1550"
+              alt="Retrato — Capitão"
+            />
+            <div class="stamp"><span class="dot"></span>FRAME 2890 / SD‑B</div>
+            <div class="corner">85mm · 1/250s</div>
+          </div>
+          <div class="work-note">
+            Antes do aquecimento. Pediu para sair atrás, sem ninguém a olhar —
+            disse que assim ficava mais ele.
+          </div>
+        </article>
 
-    <article class="frame centerpiece">
-        <figure>
-        <div class="photo" data-lb-src="https://picsum.photos/seed/mv04/1900/1100?grayscale" data-lb-meta="F.04 · CALÇADA EM ALFAMA · LISBOA · 2024">
-            <img src="https://picsum.photos/seed/mv04/1900/1100?grayscale" alt="Calçada em Alfama, Lisboa">
-            <span class="corner tl">F.04 · CENTERPIECE</span>
-            <span class="corner br">35mm · 1/500</span>
-        </div>
-        <figcaption>
-            <div class="caption-body">
-            <div class="frame-id">F.04 / 06<span class="year">2024</span></div>
-            <h3>Calçada em <em>Alfama</em></h3>
-            <dl class="meta-list">
-                <dt>Local</dt>      <dd>Lisboa, PT</dd>
-                <dt>Câmara</dt>     <dd>Leica M6</dd>
-                <dt>Lente</dt>      <dd>Summicron 35mm f/2</dd>
-                <dt>Película</dt>   <dd>Kodak Tri-X 400</dd>
-                <dt>Exposição</dt>  <dd>1/500 · f/8</dd>
+        <!-- 03 -->
+        <article class="work">
+          <div class="work-meta">
+            <div class="work-num">03<sup>/06</sup></div>
+            <div class="work-fixture">
+              <div class="title">Atletismo · 200m</div>
+              <div class="where">Pista da Ribeira · Setúbal</div>
+              <div class="when">28 · ABR · 2024</div>
+            </div>
+            <dl class="work-tech">
+              <dt>Câmara</dt>
+              <dd>Sony α7 IV</dd>
+              <dt>Lente</dt>
+              <dd>FE 200-600mm f/5.6-6.3</dd>
+              <dt>Iso</dt>
+              <dd>1600</dd>
+              <dt>Exp.</dt>
+              <dd>1/4000 · f/6.3</dd>
             </dl>
-            </div>
-            <svg class="stamp-mark" viewBox="0 0 100 100" aria-hidden="true">
-            <defs><path id="cs4" d="M 50 50 m -34 0 a 34 34 0 1 1 68 0 a 34 34 0 1 1 -68 0"/></defs>
-            <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="1"/>
-            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="0.5"/>
-            <text font-family="JetBrains Mono, monospace" font-size="6" letter-spacing="2.2" fill="currentColor"><textPath href="#cs4">· ARQUIVO · M.VINHAS · LISBOA · </textPath></text>
-            <text x="50" y="49" text-anchor="middle" font-family="Fraunces, serif" font-size="13" font-style="italic" fill="currentColor">F.04</text>
-            <text x="50" y="61" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1.4" fill="currentColor">2024</text>
-            </svg>
-        </figcaption>
-        </figure>
-    </article>
+          </div>
+          <div
+            class="work-photo"
+            data-lb-src="https://picsum.photos/seed/dm03/1800/1200"
+            data-lb-meta="03 · ATLETISMO 200M · PISTA DA RIBEIRA · 28.ABR.24"
+          >
+            <img
+              src="https://picsum.photos/seed/dm03/1600/1100"
+              alt="Atletismo · 200m"
+            />
+            <div class="stamp"><span class="dot"></span>FRAME 5102 / SD‑A</div>
+            <div class="corner">400mm · 1/4000s</div>
+          </div>
+          <div class="work-note">
+            Disparei à entrada da curva. Quatro frames antes desta foto a
+            corredora estava em terceiro; a partir daqui ganhou.
+          </div>
+        </article>
 
-    <article class="frame">
-        <figure>
-        <div class="photo" data-lb-src="https://picsum.photos/seed/mv05/1200/1600?grayscale" data-lb-meta="F.05 · AUTO-RETRATO COM ESPELHO · LISBOA · 2021">
-            <img src="https://picsum.photos/seed/mv05/1100/1450?grayscale" alt="Auto-retrato com espelho">
-            <span class="corner tl">F.05</span>
-            <span class="corner br">6×7 · 1/30</span>
-        </div>
-        <figcaption>
-            <div class="caption-body">
-            <div class="frame-id">F.05 / 06<span class="year">2021</span></div>
-            <h3>Auto-retrato com <em>espelho</em></h3>
-            <dl class="meta-list">
-                <dt>Local</dt>      <dd>Lisboa, PT</dd>
-                <dt>Câmara</dt>     <dd>Mamiya 7 II</dd>
-                <dt>Lente</dt>      <dd>N 80mm f/4</dd>
-                <dt>Película</dt>   <dd>Ilford Delta 3200</dd>
-                <dt>Exposição</dt>  <dd>1/30 · f/4</dd>
+        <!-- 04 -->
+        <article class="work">
+          <div class="work-meta">
+            <div class="work-num">04<sup>/06</sup></div>
+            <div class="work-fixture">
+              <div class="title">Jornada 22</div>
+              <div class="where">Estádio do Bonfim · Setúbal</div>
+              <div class="when">14 · ABR · 2024</div>
+            </div>
+            <dl class="work-tech">
+              <dt>Câmara</dt>
+              <dd>Sony α7 IV</dd>
+              <dt>Lente</dt>
+              <dd>FE 70-200mm f/2.8</dd>
+              <dt>Iso</dt>
+              <dd>400</dd>
+              <dt>Exp.</dt>
+              <dd>1/1600 · f/2.8</dd>
             </dl>
-            </div>
-            <svg class="stamp-mark" viewBox="0 0 100 100" aria-hidden="true">
-            <defs><path id="cs5" d="M 50 50 m -34 0 a 34 34 0 1 1 68 0 a 34 34 0 1 1 -68 0"/></defs>
-            <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="1"/>
-            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="0.5"/>
-            <text font-family="JetBrains Mono, monospace" font-size="6" letter-spacing="2.2" fill="currentColor"><textPath href="#cs5">· ARQUIVO · M.VINHAS · LISBOA · </textPath></text>
-            <text x="50" y="49" text-anchor="middle" font-family="Fraunces, serif" font-size="13" font-style="italic" fill="currentColor">F.05</text>
-            <text x="50" y="61" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1.4" fill="currentColor">2021</text>
-            </svg>
-        </figcaption>
-        </figure>
-    </article>
+          </div>
+          <div
+            class="work-photo"
+            data-lb-src="https://picsum.photos/seed/dm04/1900/1100"
+            data-lb-meta="04 · JORNADA 22 · ESTÁDIO DO BONFIM · 14.ABR.24"
+          >
+            <img
+              src="https://picsum.photos/seed/dm04/1800/1050"
+              alt="Jornada 22, Estádio do Bonfim"
+            />
+            <div class="stamp"><span class="dot"></span>FRAME 3621 / SD‑A</div>
+            <div class="corner">135mm · 1/1600s</div>
+          </div>
+          <div class="work-note">
+            Falta dura a abrir o segundo tempo. Foto que ninguém pediu mas todos
+            quiseram a seguir.
+          </div>
+        </article>
 
-    <article class="frame">
-        <figure>
-        <div class="photo" data-lb-src="https://picsum.photos/seed/mv06/1800/1200?grayscale" data-lb-meta="F.06 · SÉ, NEBLINA · LISBOA · 2023">
-            <img src="https://picsum.photos/seed/mv06/1400/930?grayscale" alt="Sé, neblina">
-            <span class="corner tl">F.06</span>
-            <span class="corner br">35mm · 1/60</span>
-        </div>
-        <figcaption>
-            <div class="caption-body">
-            <div class="frame-id">F.06 / 06<span class="year">2023</span></div>
-            <h3>Sé, <em>neblina</em></h3>
-            <dl class="meta-list">
-                <dt>Local</dt>      <dd>Lisboa, PT</dd>
-                <dt>Câmara</dt>     <dd>Leica M6</dd>
-                <dt>Lente</dt>      <dd>Summicron 50mm f/2</dd>
-                <dt>Película</dt>   <dd>Kodak Tri-X 400 (push +1)</dd>
-                <dt>Exposição</dt>  <dd>1/60 · f/2.8</dd>
+        <article class="work">
+          <div class="work-meta">
+            <div class="work-num">05<sup>/06</sup></div>
+            <div class="work-fixture">
+              <div class="title">Aquecimento</div>
+              <div class="where">Academia de Futebol · Palmela</div>
+              <div class="when">18 · JUL · 2024</div>
+            </div>
+            <dl class="work-tech">
+              <dt>Câmara</dt>
+              <dd>Sony α6400</dd>
+              <dt>Lente</dt>
+              <dd>FE 35mm f/1.4 GM</dd>
+              <dt>Iso</dt>
+              <dd>400</dd>
+              <dt>Exp.</dt>
+              <dd>1/500 · f/2</dd>
             </dl>
+          </div>
+          <div
+            class="work-photo"
+            data-lb-src="https://picsum.photos/seed/dm05/1300/1700"
+            data-lb-meta="05 · AQUECIMENTO · ACADEMIA · 18.JUL.24"
+          >
+            <img
+              src="https://picsum.photos/seed/dm05/1200/1550"
+              alt="Aquecimento"
+            />
+            <div class="stamp"><span class="dot"></span>FRAME 0884 / SD‑B</div>
+            <div class="corner">35mm · 1/500s</div>
+          </div>
+          <div class="work-note">
+            Treino aberto. O preparador físico chamava os tempos; só se via a
+            luz a partir-se nos colchões de cabeceio.
+          </div>
+        </article>
+
+        <article class="work">
+          <div class="work-meta">
+            <div class="work-num">06<sup>/06</sup></div>
+            <div class="work-fixture">
+              <div class="title">Taça do Distrito</div>
+              <div class="where">Estádio do Bonfim · Setúbal</div>
+              <div class="when">14 · JUN · 2024</div>
             </div>
-            <svg class="stamp-mark" viewBox="0 0 100 100" aria-hidden="true">
-            <defs><path id="cs6" d="M 50 50 m -34 0 a 34 34 0 1 1 68 0 a 34 34 0 1 1 -68 0"/></defs>
-            <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="1"/>
-            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="0.5"/>
-            <text font-family="JetBrains Mono, monospace" font-size="6" letter-spacing="2.2" fill="currentColor"><textPath href="#cs6">· ARQUIVO · M.VINHAS · LISBOA · </textPath></text>
-            <text x="50" y="49" text-anchor="middle" font-family="Fraunces, serif" font-size="13" font-style="italic" fill="currentColor">F.06</text>
-            <text x="50" y="61" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1.4" fill="currentColor">2023</text>
-            </svg>
-        </figcaption>
-        </figure>
-    </article>
+            <dl class="work-tech">
+              <dt>Câmara</dt>
+              <dd>Sony α7 IV</dd>
+              <dt>Lente</dt>
+              <dd>FE 24-70mm f/2.8 GM</dd>
+              <dt>Iso</dt>
+              <dd>800</dd>
+              <dt>Exp.</dt>
+              <dd>1/1000 · f/2.8</dd>
+            </dl>
+          </div>
+          <div
+            class="work-photo"
+            data-lb-src="https://picsum.photos/seed/dm06/1800/1200"
+            data-lb-meta="06 · TAÇA DO DISTRITO · BONFIM · 14.JUN.24"
+          >
+            <img
+              src="https://picsum.photos/seed/dm06/1600/1100"
+              alt="Taça do Distrito"
+            />
+            <div class="stamp"><span class="dot"></span>FRAME 6740 / SD‑A</div>
+            <div class="corner">50mm · 1/1000s</div>
+          </div>
+          <div class="work-note">
+            A taça erguida ao terceiro tempo da volta de honra. Eles já não
+            sabiam para onde olhar.
+          </div>
+        </article>
+      </div>
 
-    </div>
+      <header class="section-head container" id="equipamento">
+        <h2><span class="num">02.</span>Equipa <em>mento</em></h2>
+        <p class="desc">
+          Sistema Sony α — corpo principal, backup e óptica de 24 a 600mm.
+        </p>
+      </header>
 
-    <header class="section-head" id="sobre">
-    <h2><span class="num">02</span>Nota <em>biográfica</em></h2>
-    <p class="desc">Trabalho exclusivo em filme, do disparo à prensa.</p>
-    </header>
-
-    <section class="about">
-    <div class="portrait">
-        <img src="https://picsum.photos/seed/mv-bio/700/900?grayscale" alt="Retrato de Mara Vinhas">
-        <div class="caption">M.V. — Estúdio, Madragoa · 2024</div>
-    </div>
-    <div class="bio">
-        <h3>Mara Vinhas (n. 1989, Setúbal) trabalha em filme desde 2014.</h3>
-        <p>O trabalho dela observa o gesto vulgar, a luz tardia, e o que sobra de uma cidade depois das visitas guiadas. Fotografa quase sempre nas duas margens — Lisboa e Setúbal — em rolos pequenos, longos intervalos, e revelações feitas no próprio estúdio.</p>
-        <p>Formada em Artes Visuais pela Universidade de Évora. Colabora com a revista <em>Imargem</em> desde 2020 e ensina laboratório B&amp;P na Cooperativa Árvore.</p>
-
-        <div class="exhibitions">
-        <h4>Selecção de exposições</h4>
-        <ul>
-            <li><span class="year">2025</span><span class="where">Casa da Imagem, Porto</span><span class="kind">Individual</span></li>
-            <li><span class="year">2024</span><span class="where">Galeria Foco, Lisboa</span><span class="kind">Colectiva</span></li>
-            <li><span class="year">2023</span><span class="where">Festival Imago, Évora</span><span class="kind">Prémio Revelação</span></li>
-            <li><span class="year">2022</span><span class="where">Atelier Concorde, Lisboa</span><span class="kind">Residência</span></li>
-            <li><span class="year">2021</span><span class="where">Sociedade Filarmónica, Setúbal</span><span class="kind">Individual</span></li>
-        </ul>
+      <div class="container">
+        <div class="kit">
+          <div class="kit-row">
+            <span class="code">CORPO 01</span>
+            <span class="item">Sony α7 IV</span>
+            <span class="spec">Full-frame · 33 MP · UHS-II dual slot</span>
+            <span class="role">Principal</span>
+          </div>
+          <div class="kit-row">
+            <span class="code">CORPO 02</span>
+            <span class="item">Sony α6400</span>
+            <span class="spec">APS-C · 24 MP · Real-time AF</span>
+            <span class="role">Backup / B-roll</span>
+          </div>
+          <div class="kit-row">
+            <span class="code">LENTE 01</span>
+            <span class="item">FE 70-200mm GM</span>
+            <span class="spec">f/2.8 · OSS II · telefoto rápido</span>
+            <span class="role">Acção</span>
+          </div>
+          <div class="kit-row">
+            <span class="code">LENTE 02</span>
+            <span class="item">FE 200-600mm G</span>
+            <span class="spec">f/5.6-6.3 · linha lateral</span>
+            <span class="role">Estádio</span>
+          </div>
+          <div class="kit-row">
+            <span class="code">LENTE 03</span>
+            <span class="item">FE 24-70mm GM</span>
+            <span class="spec">f/2.8 · padrão · balneário e ambiente</span>
+            <span class="role">Padrão</span>
+          </div>
+          <div class="kit-row">
+            <span class="code">LENTE 04</span>
+            <span class="item">FE 85mm GM</span>
+            <span class="spec">f/1.4 · retrato e detalhe</span>
+            <span class="role">Retrato</span>
+          </div>
+          <div class="kit-row">
+            <span class="code">LENTE 05</span>
+            <span class="item">FE 35mm GM</span>
+            <span class="spec">f/1.4 · documental · treinos</span>
+            <span class="role">Ambiente</span>
+          </div>
         </div>
-    </div>
-    </section>
+      </div>
 
-    <section class="contact" id="contacto">
-    <p class="contact-statement">Disponível para encomendas, edições e <em>exposições</em>.</p>
-    <dl class="contact-details">
-        <div class="contact-row">
-        <dt>Estúdio</dt>
-        <dd>Rua das Madres, Madragoa<br>1200‑262 Lisboa, PT</dd>
-        </div>
-        <div class="contact-row">
-        <dt>E‑mail</dt>
-        <dd><a href="mailto:mara@vinhas.pt">mara@vinhas.pt</a></dd>
-        </div>
-        <div class="contact-row">
-        <dt>Telefone</dt>
-        <dd>+351 9XX XXX XXX</dd>
-        </div>
-        <div class="contact-row">
-        <dt>Instagram</dt>
-        <dd><a href="#">@mara.vinhas.film</a></dd>
-        </div>
-    </dl>
-    </section>
+      <header class="section-head container" id="sobre">
+        <h2><span class="num">03.</span>Sobre o <em>fotógrafo</em></h2>
+        <p class="desc">
+          Setúbal · Disponível para clubes, agências e órgãos de comunicação.
+        </p>
+      </header>
 
+      <section class="about container">
+        <div class="portrait">
+          <img
+            src="https://picsum.photos/seed/dm-bio/700/870"
+            alt="Retrato de Diogo Mendes"
+          />
+          <div class="caption">
+            <span>D.M. · ESTÚDIO</span>
+            <span class="dot">● 2024</span>
+          </div>
+        </div>
+        <div class="bio">
+          <h3>Cobrir o jogo como quem <em>joga</em>.</h3>
+          <p>
+            Diogo Mendes é fotógrafo de desporto sediado em Setúbal. O trabalho
+            dele vive no futebol de formação da região — sub-15 a sub-19 — e
+            estende-se ao atletismo de pista, futsal e modalidades indoor. Cobre
+            coberturas de jornada, finais, sessões para clubes, retratos de
+            atletas e vídeo curto para redes sociais.
+          </p>
+          <p>
+            Cresceu a jogar em campos de terra batida na península; hoje
+            continua a entrar em campo, só que com câmara em vez de chuteiras.
+          </p>
+
+          <div class="workflow">
+            <div class="step">
+              <div class="num">01</div>
+              <div class="label">Pré-jogo</div>
+              <div class="desc">
+                Briefing curto com o treinador. Identifico ângulos críticos e
+                quem vai entrar com a faixa.
+              </div>
+            </div>
+            <div class="step">
+              <div class="num">02</div>
+              <div class="label">Linha lateral</div>
+              <div class="desc">
+                Acção com 70-200 e 200-600. Mudo de lado ao intervalo conforme a
+                luz.
+              </div>
+            </div>
+            <div class="step">
+              <div class="num">03</div>
+              <div class="label">Entrega</div>
+              <div class="desc">
+                Selecção e cor entregues em 24-48h. Pacote redes sociais +
+                arquivo completo.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact container" id="contacto">
+        <p class="contact-cta">Próxima <em>jornada</em> &mdash; falamos?</p>
+        <dl class="contact-details">
+          <div class="contact-row">
+            <dt>Instagram</dt>
+            <dd>
+              <a
+                href="https://instagram.com/mende_sstudio"
+                target="_blank"
+                rel="noopener"
+                >@mende_sstudio</a
+              >
+            </dd>
+          </div>
+          <div class="contact-row">
+            <dt>E-mail</dt>
+            <dd>
+              <a href="mailto:diogo@mendestudio.pt">diogo@mendestudio.pt</a>
+            </dd>
+          </div>
+          <div class="contact-row">
+            <dt>Base</dt>
+            <dd>Setúbal · Portugal</dd>
+          </div>
+          <div class="contact-row">
+            <dt>Cobertura</dt>
+            <dd>Lisboa · Margem Sul · Alentejo</dd>
+          </div>
+        </dl>
+      </section>
     </main>
-    <footer class="colophon">
-    <span class="mark">M.V.</span>
-    <span>© Mara Vinhas · Todos os direitos reservados · MMXXVI</span>
-    <span>Tipos: Fraunces · Inter · JetBrains Mono</span>
+
+    <footer class="colophon container">
+      <span class="dm">DM.</span>
+      <span>© Diogo Mendes · Todos os direitos reservados · MMXXVI</span>
+      <span>Set in Big Shoulders · Inter · JBM</span>
     </footer>
 
-    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada">
-    <button class="lb-close" aria-label="Fechar">[ ESC ]  Fechar</button>
-    <img src="" alt="">
-    <div class="lb-meta"></div>
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Visualização ampliada"
+    >
+      <button class="lb-close" aria-label="Fechar">[ ESC ] Fechar</button>
+      <img src="" alt="" />
+      <div class="lb-meta"></div>
     </div>
-
-</body>
-<script src="scripts/index.js"></script>
+  </body>
+  <script src="scripts/index.js"></script>
 </html>
